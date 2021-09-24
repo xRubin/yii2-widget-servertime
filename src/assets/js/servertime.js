@@ -6,6 +6,7 @@ window.onload = function () {
         let timeUpdate = function (dateCurrent) {
             let date = new Date(dateCurrent * 1000);
             serverTime.innerHTML = date.toLocaleTimeString('ru', {
+                timeZone: 'UTC',
                 year: 'numeric',
                 month: '2-digit',
                 day: '2-digit',
