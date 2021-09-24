@@ -1,6 +1,6 @@
 <?php
 
-namespace kodexpert\yii2\widget\clock;
+namespace rubin\yii2\widget\servertime;
 
 use yii\base\Widget;
 use yii\helpers\Html;
