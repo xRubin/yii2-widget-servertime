@@ -1,0 +1,25 @@
+{
+  "name": "rubin/yii2-widget-servertime",
+  "description": "Server time clocks widget for Yii2",
+  "keywords": [
+    "yii2",
+    "widget",
+    "clocks"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Shashurin",
+      "email": "dalamar84@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "rubin\\yii2\\widget\\servertime\\": "src/"
+    }
+  }
+}
