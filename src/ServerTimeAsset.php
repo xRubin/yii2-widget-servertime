@@ -6,6 +6,8 @@ use yii\web\AssetBundle;
 
 class ServerTimeAsset extends AssetBundle
 {
+    public $sourcePath = __DIR__ . '/assets';
+
     public $css = [
         'css/servertime.css',
     ];
@@ -13,13 +15,4 @@ class ServerTimeAsset extends AssetBundle
     public $js = [
         'js/servertime.js',
     ];
-
-    /**
-     * @inheritdoc
-     */
-    public function init()
-    {
-        $this->setSourcePath(__DIR__ . '/assets');
-        parent::init();
-    }
 }
